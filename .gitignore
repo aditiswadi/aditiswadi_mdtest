@@ -1,6 +1,5 @@
 # Miscellaneous
 *.class
-<<<<<<< HEAD
 *.log
 *.pyc
 *.swp
@@ -162,4 +161,3 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
->>>>>>> f8398218414f4b8a45cdff57a5ec9e4c447a375a
