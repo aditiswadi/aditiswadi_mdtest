@@ -1,5 +1,4 @@
 # aditiswadi_mdtest
-<<<<<<< HEAD
 
 A new Flutter project.
 
