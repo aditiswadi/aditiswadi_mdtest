@@ -1,7 +1,7 @@
 # aditiswadi_mdtest
 FAN IT Mobile Developer Technical Test | Flutter + Clean Architecture + BLoC + Firebase
 
-🚀 FAN IT Mobile Test – aditiiswadi_mdtest
+🚀 FAN IT Mobile Test – aditiswadi_mdtest
 📌 Description
 
 Mobile application for FAN IT Mobile Developer Technical Test.
@@ -62,7 +62,7 @@ dev_dependencies:
 
 ⚙️ Installation & Setup
 1. Clone Repository
-git clone https://github.com/aditiiswadi/aditiiswadi_mdtest.git
+git clone https://github.com/aditiswadi/aditiswadi_mdtest.git
 cd aditiiswadi_mdtest
 
 2. Install Dependencies
