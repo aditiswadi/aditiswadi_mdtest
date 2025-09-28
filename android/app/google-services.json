@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "88209575255",
+    "project_id": "aditiswadi-mdtest",
+    "storage_bucket": "aditiswadi-mdtest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88209575255:android:ba28f4811b407ccac44212",
+        "android_client_info": {
+          "package_name": "com.example.aditiswadi_mdtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe4wG5CFFGCFowCBzsH8-ZwONnKZD7aMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
