@@ -47,19 +47,19 @@ Main features:
 
 ⚙️ Installation & Setup
 1. Clone Repository
-   git clone https://github.com/aditiswadi/aditiswadi_mdtest.git
-   cd aditiiswadi_mdtest
+   - git clone https://github.com/aditiswadi/aditiswadi_mdtest.git
+   - cd aditiiswadi_mdtest
 2. Install Dependencies
-   flutter pub get
+   - flutter pub get
 3. Setup Firebase
-   Create a new project in Firebase Console
-   Enable Authentication (Email/Password) and Firestore Database
+   - Create a new project in Firebase Console
+   - Enable Authentication (Email/Password) and Firestore Database
 4. Add the Firebase configuration files:
    - Android → android/app/google-services.json
    - iOS → ios/Runner/GoogleService-Info.plist
-5. Make sure firebase_core is initialized in main.dart.
-6. Run Application:
-   flutter run
+   - Make sure firebase_core is initialized in main.dart.
+5. Run Application
+   - flutter run
    
 🧪 Running Tests
 - flutter test
