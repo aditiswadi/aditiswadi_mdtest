@@ -16,14 +16,14 @@ Main features:
 - Unit Testing for critical components (Auth, Email Verification, Password Reset, Firestore Retrieval)
 
 🛠️ Tech Stack
-- Flutter
-- Firebase Authentication
-- Firebase Firestore
-- BLoC (flutter_bloc) for state management
-- GetIt for dependency injection
-- Equatable for value equality in entities/models
-- Mockito for unit testing
-- Google Fonts for styling
+- Flutter → Chosen because it allows cross-platform development (Android & iOS) with a single codebase, offers excellent performance with its own rendering engine, and provides a rich set of UI components.
+- Firebase Authentication → Simplifies user authentication with email/password login, registration, password reset, and email verification, removing the need to build a custom backend for auth.
+- Firebase Firestore → A cloud-hosted NoSQL database that supports real-time data sync, making it ideal for displaying and updating user lists dynamically.
+- BLoC (flutter_bloc) → Used for state management to ensure a predictable, testable, and scalable way of handling UI states, separating business logic from presentation.
+- GetIt → A service locator that enables clean dependency injection, improving modularity and testability of the codebase.
+- Equatable → Helps simplify equality checks in entities and models, making BLoC state comparison more efficient and reducing boilerplate code.
+- Mockito → Used for unit testing with mocks, allowing tests to run without relying on actual Firebase services (important for testing authentication, data retrieval, etc.).
+- Google Fonts → Provides access to a wide variety of fonts, improving the UI/UX design and making the app look more modern and professional.
 
 📦 Dependencies
 - dependencies:
@@ -54,15 +54,15 @@ Main features:
 3. Setup Firebase
    Create a new project in Firebase Console
    Enable Authentication (Email/Password) and Firestore Database
-   Add the Firebase configuration files:
-   Android → android/app/google-services.json
-   iOS → ios/Runner/GoogleService-Info.plist
-   Make sure firebase_core is initialized in main.dart.
-5. Run Application
+4. Add the Firebase configuration files:
+   - Android → android/app/google-services.json
+   - iOS → ios/Runner/GoogleService-Info.plist
+5. Make sure firebase_core is initialized in main.dart.
+6. Run Application:
    flutter run
    
 🧪 Running Tests
-flutter test
+- flutter test
 
 📖 Additional Notes
 Architecture follows Clean Architecture, separating data, domain, and presentation layers.
