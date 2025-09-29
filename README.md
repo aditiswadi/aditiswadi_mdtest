@@ -1,41 +1,30 @@
 FAN IT Mobile Developer Technical Test | Flutter + Clean Architecture + BLoC + Firebase
 
 🚀 FAN IT Mobile Test – aditiswadi_mdtest
-📌 Description
 
+📌 Description
 Mobile application for FAN IT Mobile Developer Technical Test.
 Built with Flutter using Clean Architecture + BLoC (Business Logic Component) to ensure well-structured, scalable, and maintainable code.
 
+You can watch the demo video of the application here:  
+👉 [Watch Demo on Google Drive](https://drive.google.com/file/d/1sFQdyqRpLeythjAqrHTGh8wWBOOrwHXH/view?usp=sharing)
+
 Main features:
-
 🔐 Authentication: Login, Register, Forgot Password
-
 📩 Email Verification with real-time status updates
-
 🏠 Home Page displaying user list from Cloud Firestore
-
 🔎 Search & Filter users by email verification status
-
 🔑 Password Reset
-
 🧪 Unit Testing for critical components (Auth, Email Verification, Password Reset, Firestore Retrieval)
 
 🛠️ Tech Stack
-
 Flutter
-
 Firebase Authentication
-
 Firebase Firestore
-
 BLoC (flutter_bloc) for state management
-
 GetIt for dependency injection
-
 Equatable for value equality in entities/models
-
 Mockito for unit testing
-
 Google Fonts for styling
 
 📦 Dependencies
@@ -53,7 +42,6 @@ dependencies:
   get_it: ^8.2.0
   google_fonts: ^6.3.2
   mockito: ^5.5.1
-
 dev_dependencies:
   flutter_lints: ^5.0.0
   flutter_test:
@@ -61,40 +49,26 @@ dev_dependencies:
 
 ⚙️ Installation & Setup
 1. Clone Repository
-git clone https://github.com/aditiswadi/aditiswadi_mdtest.git
-cd aditiiswadi_mdtest
-
+   git clone https://github.com/aditiswadi/aditiswadi_mdtest.git
+   cd aditiiswadi_mdtest
 2. Install Dependencies
-flutter pub get
-
+   flutter pub get
 3. Setup Firebase
-
-Create a new project in Firebase Console
-
-Enable Authentication (Email/Password) and Firestore Database
-
-Add the Firebase configuration files:
-
-Android → android/app/google-services.json
-
-iOS → ios/Runner/GoogleService-Info.plist
-
-Make sure firebase_core is initialized in main.dart.
-
-4. Run Application
-flutter run
-
+   Create a new project in Firebase Console
+   Enable Authentication (Email/Password) and Firestore Database
+   Add the Firebase configuration files:
+   Android → android/app/google-services.json
+   iOS → ios/Runner/GoogleService-Info.plist
+   Make sure firebase_core is initialized in main.dart.
+5. Run Application
+   flutter run
+   
 🧪 Running Tests
 flutter test
 
 📖 Additional Notes
-
 Architecture follows Clean Architecture, separating data, domain, and presentation layers.
-
 flutter_bloc is chosen for predictable, testable, and scalable state management.
-
 GetIt is used for dependency injection to decouple layers.
-
 Mockito is used for mocking in unit tests.
-
 Google Fonts is used for improved UI styling.
